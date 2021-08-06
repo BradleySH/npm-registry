@@ -8,7 +8,7 @@ import './App.css';
 function App() {
   return (
       <Provider store ={store}>
-        <div>
+        <div className="search-container">
           <h1>Search for a Package</h1>
           <RepositoriesList />
         </div>
